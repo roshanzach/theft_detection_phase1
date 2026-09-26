@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+env/
+ENV/
+.env
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Streamlit
+.streamlit/
+
+# Large model weights (Ultralytics auto-downloads YOLO weights if missing)
+# yolo11n.pt
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
